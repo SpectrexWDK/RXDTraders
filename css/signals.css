@@ -1,0 +1,85 @@
+.signalsBlock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signalsList{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.signalBull img{
+    height: 56vh;
+    border-radius: 2vh;
+}
+
+.signalBear img{
+    height: 56vh;
+    border-radius: 2vh;
+}
+
+.signalBull{
+    display: inline-flex;
+    box-shadow: 0 0 1vh 0.2vh #5cfd34;
+    transition: 0.4s;
+    border-radius: 1vh;
+    margin: 2vh;
+    align-items: center;
+}
+
+.signalBear{
+    display: inline-flex;
+    box-shadow: 0 0 1vh 0.2vh #ff0000; 
+    transition: 0.4s;
+    border-radius: 1vh;
+    margin: 2vh;
+    align-items: center;
+}
+
+.signalBull:hover{
+    display: inline-flex;
+    box-shadow: 0 0 1.6vh 0.4vh #5fff38;
+}
+
+.signalBear:hover{
+    display: inline-flex;
+    box-shadow: 0 0 1.6vh 0.4vh #ff0000;
+}
+
+.signalBull h2{
+    font-size: 4.2vh;
+    color: #4de028;
+}
+
+.signalBull h3{
+    font-size: 3.2vh;
+    width: 60%;
+    color: #4de028;
+}
+
+.signalBear h2{
+    font-size: 4.2vh;
+    color: #ff0000;
+}
+
+.signalBear h3{
+    font-size: 3.2vh;
+    width: 60%;
+    color: #ff0000;
+}
+
+#PreCategoryBull{
+    width: 80%;
+    font-size: 4vh;
+    margin-left: 10vh;
+    color: #4de028;
+}
+
+#PreCategoryBear{
+    width: 80%;
+    font-size: 4vh;
+    margin-left: 10vh;
+    color: #ff0000;
+}
